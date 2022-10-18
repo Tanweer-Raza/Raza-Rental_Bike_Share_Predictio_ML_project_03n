@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 from typing import List
 
 #Declaring variables for setup functions
-PROJECT_NAME = "Insurance Premium Prediction"
+PROJECT_NAME = "Rental-Bike-Prediction"
 VERSION = "0.0.1"
 AUTHOR = "Tanweer Raza"
 DESCRIPTION = "Building a solution that should be able to do the Predication of bike rental count hourly or daily based on the environmental and seasonal settings."
