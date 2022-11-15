@@ -1,5 +1,6 @@
-from setuptools import setup, find_packages
 from typing import List
+
+from setuptools import find_packages, setup
 
 #Declaring variables for setup functions
 PROJECT_NAME = "Rental-Bike-Prediction"

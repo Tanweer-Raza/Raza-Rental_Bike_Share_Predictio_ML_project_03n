@@ -1,0 +1,57 @@
+columns :
+  season : int
+  mnth : int
+  hr : int
+  holiday : int
+  weekday : int
+  workingday : int
+  weathersit : int
+  temp : float
+  hum : float
+  cnt : int
+
+
+numerical_columns :
+  - temp
+  - hum
+  - mnth
+  - hr
+
+categorical_columns :
+  - season
+  - holiday
+  - weekday
+  - workingday
+  - weathersit
+
+target_column : cnt
+
+domain_values :
+  season:
+    - 1
+    - 2
+    - 3
+    - 4
+  
+  holiday:
+    - 0
+    - 1
+    
+  weekday:
+    - 0
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+  
+  workingday:
+    - 0
+    - 1
+  
+  weathersit:
+    - 1
+    - 2
+    - 3
+    - 4
